@@ -7,7 +7,8 @@ app.use(cors()); // <-- adicionado middleware cors
 app.use(express.json());
 app.use(routes);
 
-const PORT = 3333;
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, err => {
+    if(err) throw err;
+    console.log("%c Server running", "color: green");
 });

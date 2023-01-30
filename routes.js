@@ -41,4 +41,16 @@ router.post('/conta/cadastro', (req, res) => {
   });
 });
 
+// Listagem de todos os usuários
+router.get('/conta/lista', (req, res) => {
+  const listQuery = 'SELECT * FROM users';
+  connection.query(listQuery, (err, results) => {
+  if (err) {
+  return res.send(err);
+  } else {
+  return res.send(results);
+  }
+  });
+  });
+
 module.exports = router;

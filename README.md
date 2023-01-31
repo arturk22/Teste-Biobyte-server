@@ -1,8 +1,7 @@
 # Teste-Biobyte-server
 
 ## Feito com nodeJs, expressJs e MySQL
-Disponivel no heroku com BD na nuvem usando clearDB para fazer a conexão.
-Infelizmente o clearDB tem algumas limitações no plano free, sendo necessario reiniciar o dyno para uso.
+Disponivel no heroku com BD na nuvem usando Draxlr para fazer a conexão.
 
 Endereço nuvem:
 https://server-biobyte.herokuapp.com/conta/lista // Lista todos os cadastros.

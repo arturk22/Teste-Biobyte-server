@@ -17,4 +17,4 @@ http://localhost:5000/conta/lista // Lista todos os cadastros.
 
 http://localhost:5000/verificaEmail/seumail@email.com // Faz a validação se o email está disponivel para que o cadastro seja efetivado, para que retorne o alert no front
 
-http://localhost:5000/conta/cadastro // Onde o front usa para enviar o JSON ao back-end.
+http://localhost:5000/conta/cadastro // Onde o front usa para enviar os dados ao back-end.
